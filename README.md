@@ -7,6 +7,12 @@ Software needed:
 - MeshLab https://www.meshlab.net/ 
 - Python with PyMeshlab package installed in environment https://pymeshlab.readthedocs.io/en/latest/
 
+Data needed:
+- Anatomical MRI (.nii)
+- Einscan of participant wearing helmet (saved as .ply or .stl)
+- .stl/.ply of helmet used
+- Locations and orientations of sensors in the corresponding helmet (for later analysis)
+
 Get mesh of scalp from MRI (get .ply from .nii):
 Run 'get_mri_mesh.m', ensuring correct paths for fieldtrip and project directory
 Select '.nii' for MRI 
