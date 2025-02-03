@@ -9,7 +9,7 @@ Software needed:
 
 Data needed:
 - Anatomical MRI (.nii)
-- Einscan of participant wearing helmet (saved as .ply or .stl)
+- Einscan of participant wearing helmet (saved as .ply or .stl) [referred to as 'HNF']
 - .stl/.ply of helmet used
 - Locations and orientations of sensors in the corresponding helmet (for later analysis)
 
